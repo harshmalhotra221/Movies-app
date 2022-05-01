@@ -13,6 +13,58 @@
   }
 }
 
+body{
+  background-image: radial-gradient(136.74% 134.62% at 136.74% -29.44%,#027C89 0%, #6D4650 100%)
+}
+
+/* #text-underline{ */
+h3:hover { 
+  /* text-decoration: underline overline; */
+  background: linear-gradient(to left, #f69ec4, #f9dd94 100%);
+  background-position: 0 100%;
+  background-size: 100% 2px;
+  background-repeat: repeat-x;
+  background: rgba(238,111,87,0.5);  
+ }
+
+ h5:hover{
+  background: linear-gradient(to left, #f69ec4, #f9dd94 100%);
+  background-position: 0 100%;
+  background-size: 100% 2px;
+  background-repeat: repeat-x;
+  background: rgba(238,111,87,0.5);  
+ }
+
+ th:hover{
+  /* background: linear-gradient(to left, #f69ec4, #f9dd94 100%); */
+  background-position: 0 100%;
+  background-size: 100% 2px;
+  margin: auto;
+  /* background-repeat: repeat-x; */
+  background: rgba(238,111,87,0.5);  
+ }
+
+ /* th{
+   width: 10px;
+ } */
+
+ #title-underline{
+   color: white;
+ }
+ td:hover {
+  background: linear-gradient(to left,orange, red, blue, skyblue, purple);
+  background-position: 0 100%;
+  background-size: 100% 2px;
+  background-repeat: repeat-x;
+ }
+
+.text-center{
+  background: linear-gradient(to right, red, white);
+  background-position: 0 100%;
+  background-size: 100% 2px;
+  background-repeat: repeat-x;
+  color:white;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -34,5 +86,101 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.banner-card{
+    width: 100vw;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    position: relative;
+    height: 70vh;
+    color: white;
+}
+
+.banner-img{
+  height: 70vh;
+  width: 100%;
+}
+
+.banner-title{
+  position: absolute;
+  top: 45vh;
+  left: 5vw;
+}
+
+.banner-text{
+  position: absolute;
+  top: 55vh;
+  left: 5vw;
+  height: 4.5rem;
+  overflow: hidden;
+  margin-right: 5vw;
+}
+
+.movies-list{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.movies-card{
+  width: 20vw;
+  margin: 1rem;
+  color: white;
+  position: relative;
+}
+
+.movies-title{
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+
+}
+
+.movies-button{
+  position: absolute;
+  bottom: 2rem;
+}
+/* style={{height:'40vh',width:'20vw'}} */
+.movies-img{
+  height: 40vh;
+  width: 20vw;
+}
+
+.favourites-genres{
+  padding: 3rem;
+}
+
+.favourites-table{
+  padding: 3rem;
+  overflow: auto;
+}
+
+@media screen and (max-width:400px){
+  .banner-card{
+    height:30vh;
+  }
+  .banner-img{
+    height: 30vh;
+  }
+  .banner-title{
+    top: 12vh;
+    left: 5vw
+  }
+  .banner-text{
+    top: 17vh;
+    left: 5vw;
+  }
+  .movies-card{
+    width: 40vw;
+    margin: 0.1rem;
+  }
+  .movies-button{
+    width: 80%;
+  }
+  .movies-img{
+    width: 40vw;
   }
 }
