@@ -2,8 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Uploading screencapture-movie-app-harsh-netlify-app-2022-05-01-16_33_17.png…]()
-
+![screencapture-movie-app-harsh-netlify-app-2022-05-01-16_33_17](https://user-images.githubusercontent.com/77105409/166143607-5b300c96-437f-4053-ad0b-57fa26aff405.png)
 
 ## Available Scripts
 
